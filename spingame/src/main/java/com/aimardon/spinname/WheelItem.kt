@@ -1,4 +1,4 @@
-package com.aimardon.spingame
+package com.aimardon.spinname
 
 import android.graphics.Bitmap
 

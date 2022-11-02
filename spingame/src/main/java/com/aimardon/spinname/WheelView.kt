@@ -1,4 +1,4 @@
-package com.aimardon.spingame
+package com.aimardon.spinname
 
 import android.animation.Animator
 import android.content.Context
@@ -62,7 +62,7 @@ internal class WheelView : View {
         mOnLuckyWheelReachTheTarget = onLuckyWheelReachTheTarget
     }
     fun addWheelItems(wheelItems: List<WheelItem?>?) {
-        mWheelItems = wheelItems as List<WheelItem>?
+        mWheelItems = wheelItems as List<WheelItem>
         invalidate()
     }
     private fun drawWheelBackground(canvas: Canvas) {

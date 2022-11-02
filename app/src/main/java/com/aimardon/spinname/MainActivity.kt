@@ -1,10 +1,10 @@
-package com.aimardon.spingame
+package com.aimardon.spinname
 
 import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.aimardon.spingame.databinding.ActivityMainBinding
+import com.aimardon.spinname.databinding.ActivityMainBinding
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     inner class ExampleThread:Thread(){
         override fun run() {
             handler.post {
-                var a=0
+                var a: Int
                 binding.start.setOnClickListener {
                     a = Random.nextInt(wheelItems!!.size)
                     binding.lwv.setTarget(a)
