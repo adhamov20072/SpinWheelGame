@@ -40,25 +40,37 @@ The wheel spins for a few seconds, then fires the `setLuckyWheelReachTheTarget` 
  	
  **XML**
  
- RelativeLayout
  
 ```xml
-<com.aimardon.spinname.LuckyWheel
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:LuckyWheel="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.aimardon.spinname.LuckyWheel
         android:id="@+id/lwv"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_centerInParent="true"
-        LuckyWheel:background_color="@color/colorPrimary" />
+        LuckyWheel:background_color="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        LuckyWheel:layout_constraintEnd_toEndOf="parent"
+        LuckyWheel:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/start"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
         android:background="#00E6FF"
+        android:text="start"
         android:textColor="@android:color/white"
-        android:text="start"/>
+        LuckyWheel:layout_constraintEnd_toEndOf="parent"
+        LuckyWheel:layout_constraintStart_toStartOf="parent"
+        LuckyWheel:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
 
