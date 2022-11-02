@@ -1,4 +1,4 @@
-package com.aimardon.spinname
+package com.aimardon.spingame
 
 import android.content.Context
 import android.graphics.Color
@@ -9,6 +9,7 @@ import android.view.View.OnTouchListener
 import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.annotation.AttrRes
+import com.aimardon.spinname.R
 import kotlin.math.abs
 
 

@@ -1,13 +1,11 @@
-package com.aimardon.spinname
+package com.aimardon.spingame
 
 import android.animation.Animator
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
 import android.view.animation.DecelerateInterpolator
-import androidx.core.graphics.toColor
 import kotlin.math.cos
 import kotlin.math.min
 import kotlin.math.sin

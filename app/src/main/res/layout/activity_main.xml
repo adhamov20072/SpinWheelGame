@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.aimardon.spinname.LuckyWheel
+    <com.aimardon.spingame.LuckyWheel
         android:id="@+id/lwv"
         android:layout_width="300dp"
         android:layout_height="300dp"
