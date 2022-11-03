@@ -1,4 +1,4 @@
-package com.aimardon.spinname
+package com.aimardon.spingame
 
 import android.animation.Animator
 import android.content.Context

@@ -1,10 +1,10 @@
-package com.aimardon.spinname
+package com.aimardon.spingame
 
 import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.aimardon.spinname.databinding.ActivityMainBinding
+import com.aimardon.spingame.databinding.ActivityMainBinding
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {

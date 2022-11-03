@@ -1,4 +1,4 @@
-package com.aimardon.spinname
+package com.aimardon.spingame
 
 import android.content.Context
 import android.graphics.Color

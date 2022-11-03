@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.aimardon.spinname'
+    namespace 'com.aimardon.spingame'
     compileSdk 33
 
     defaultConfig {
